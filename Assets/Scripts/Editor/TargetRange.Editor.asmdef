@@ -1,0 +1,19 @@
+{
+  "name": "TargetRange.Editor",
+  "rootNamespace": "TargetRange.EditorTools",
+  "references": [
+    "TargetRange.Runtime",
+    "Unity.InputSystem",
+    "Unity.TextMeshPro",
+    "Unity.TextMeshPro.Editor",
+    "UnityEngine.UI",
+    "Unity.XR.Interaction.Toolkit",
+    "Unity.XR.CoreUtils",
+    "Unity.RenderPipelines.Universal.Runtime",
+    "Unity.RenderPipelines.Core.Runtime",
+    "Unity.RenderPipelines.Universal.Editor"
+  ],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "autoReferenced": false
+}

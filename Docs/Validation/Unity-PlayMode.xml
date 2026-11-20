@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="10" result="Passed" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-01 12:11:32Z" end-time="2026-11-01 12:11:35Z" duration="3.4964307">
+  <test-suite type="TestSuite" id="1026" name="Target Range XR" fullname="Target Range XR" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-11-01 12:11:32Z" end-time="2026-11-01 12:11:35Z" duration="3.496431" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1019" name="TargetRange.Tests.PlayMode.dll" fullname="D:/Projects/Task2_TargetRangeXR/Library/ScriptAssemblies/TargetRange.Tests.PlayMode.dll" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-11-01 12:11:32Z" end-time="2026-11-01 12:11:35Z" duration="3.487107" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="28104" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1020" name="TargetRange" fullname="TargetRange" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-11-01 12:11:32Z" end-time="2026-11-01 12:11:35Z" duration="3.486409" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1021" name="Tests" fullname="TargetRange.Tests" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-11-01 12:11:32Z" end-time="2026-11-01 12:11:35Z" duration="3.479178" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1022" name="PlayMode" fullname="TargetRange.Tests.PlayMode" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-11-01 12:11:32Z" end-time="2026-11-01 12:11:35Z" duration="3.478413" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1003" name="DesktopTests" fullname="TargetRange.Tests.PlayMode.DesktopTests" classname="TargetRange.Tests.PlayMode.DesktopTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-11-01 12:11:32Z" end-time="2026-11-01 12:11:33Z" duration="1.289840" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1006" name="DroppedPistolCannotFire_AndModeSwitchClearsHold" fullname="TargetRange.Tests.PlayMode.DesktopTests.DroppedPistolCannotFire_AndModeSwitchClearsHold" methodname="DroppedPistolCannotFire_AndModeSwitchClearsHold" classname="TargetRange.Tests.PlayMode.DesktopTests" runstate="Runnable" seed="589168023" result="Passed" start-time="2026-11-01 12:11:32Z" end-time="2026-11-01 12:11:33Z" duration="0.957480" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1004" name="LaunchWaitsForPickup_AndResetDoesNotAutoStart" fullname="TargetRange.Tests.PlayMode.DesktopTests.LaunchWaitsForPickup_AndResetDoesNotAutoStart" methodname="LaunchWaitsForPickup_AndResetDoesNotAutoStart" classname="TargetRange.Tests.PlayMode.DesktopTests" runstate="Runnable" seed="805600254" result="Passed" start-time="2026-11-01 12:11:33Z" end-time="2026-11-01 12:11:33Z" duration="0.102034" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1005" name="ReticleAim_FiresFromMuzzle_AndKnocksTargetDown" fullname="TargetRange.Tests.PlayMode.DesktopTests.ReticleAim_FiresFromMuzzle_AndKnocksTargetDown" methodname="ReticleAim_FiresFromMuzzle_AndKnocksTargetDown" classname="TargetRange.Tests.PlayMode.DesktopTests" runstate="Runnable" seed="1622785895" result="Passed" start-time="2026-11-01 12:11:33Z" end-time="2026-11-01 12:11:33Z" duration="0.216744" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="1007" name="RangeTests" fullname="TargetRange.Tests.PlayMode.RangeTests" classname="TargetRange.Tests.PlayMode.RangeTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-11-01 12:11:33Z" end-time="2026-11-01 12:11:35Z" duration="2.186053" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1010" name="FiredBullet_KnocksATargetDown_AndScoresItsPointsOnce" fullname="TargetRange.Tests.PlayMode.RangeTests.FiredBullet_KnocksATargetDown_AndScoresItsPointsOnce" methodname="FiredBullet_KnocksATargetDown_AndScoresItsPointsOnce" classname="TargetRange.Tests.PlayMode.RangeTests" runstate="Runnable" seed="1413448959" result="Passed" start-time="2026-11-01 12:11:33Z" end-time="2026-11-01 12:11:34Z" duration="0.227525" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1009" name="GrabbingThePistol_StartsTheRound" fullname="TargetRange.Tests.PlayMode.RangeTests.GrabbingThePistol_StartsTheRound" methodname="GrabbingThePistol_StartsTheRound" classname="TargetRange.Tests.PlayMode.RangeTests" runstate="Runnable" seed="672672212" result="Passed" start-time="2026-11-01 12:11:34Z" end-time="2026-11-01 12:11:34Z" duration="0.157458" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[SIM enabled=True active=True
+NODE UniversalController self=True hierarchy=True parent=Right Controller Visual
+NODE Feedback Controller self=True hierarchy=True parent=Game Systems
+NODE Right Controller Teleport Stabilized Origin self=True hierarchy=True parent=Camera Offset
+NODE Right Controller self=True hierarchy=True parent=Camera Offset
+NODE XRController_Thumbstick_Buttons self=True hierarchy=True parent=UniversalController
+NODE Left Controller Teleport Stabilized Origin self=True hierarchy=True parent=Camera Offset
+NODE Left Controller self=True hierarchy=True parent=Camera Offset
+NODE [Left InteractionAttachController] Attach self=True hierarchy=True parent=XR Origin (XR Rig)
+NODE [Left InteractionAttachController] Attach Child self=True hierarchy=True parent=[Left InteractionAttachController] Attach
+NODE Near-Far Interactor self=True hierarchy=True parent=Left Controller
+NODE Right Controller Stabilized Attach self=True hierarchy=True parent=Right Controller Teleport Stabilized Origin
+NODE Right Controller Visual self=True hierarchy=True parent=Right Controller
+NODE [Right InteractionAttachController] Attach self=True hierarchy=True parent=XR Origin (XR Rig)
+NODE Near-Far Interactor self=True hierarchy=True parent=Right Controller
+NODE Controller_Base self=True hierarchy=True parent=UniversalController
+NODE UniversalController self=True hierarchy=True parent=Left Controller Visual
+NODE Left Controller Stabilized Attach self=True hierarchy=True parent=Left Controller Teleport Stabilized Origin
+NODE Left Controller Visual self=True hierarchy=True parent=Left Controller
+NODE XRController_Thumbstick_Buttons self=True hierarchy=True parent=UniversalController
+NODE [Right InteractionAttachController] Attach Child self=True hierarchy=True parent=[Right InteractionAttachController] Attach
+NODE Controller_Base self=True hierarchy=True parent=UniversalController
+NODE ControllerValueText self=True hierarchy=True parent=ControllerSelectedValues
+NODE ControllerSelectedValues self=True hierarchy=True parent=ControllerRow
+NODE RController self=True hierarchy=True parent=RightController
+NODE LControllerOverlay self=True hierarchy=True parent=LController
+NODE ControllerSelectedButton self=True hierarchy=True parent=ControllerRow
+NODE LControllerKeyBindText self=True hierarchy=True parent=LControllerKeyBind
+NODE LControllerImage self=True hierarchy=True parent=LController
+NODE LeftController self=True hierarchy=True parent=ControllersOption
+NODE ControllersOption self=True hierarchy=True parent=BottomSection
+NODE RControllerKeyBindText self=True hierarchy=True parent=RControllerKeyBind
+NODE LControllerKeyBind self=True hierarchy=True parent=LeftController
+NODE RControllerOverlay self=True hierarchy=True parent=RController
+NODE LController self=True hierarchy=True parent=LeftController
+NODE ControllerRow self=True hierarchy=True parent=OrderedListView
+NODE RControllerKeyBind self=True hierarchy=True parent=RightController
+NODE RightController self=True hierarchy=True parent=ControllersOption
+NODE RControllerImage self=True hierarchy=True parent=RController
+Failed to get haptic capabilities of XRSimulatedController:/XRSimulatedController1, error code -1. Continuing assuming a single haptic channel.
+]]></output>
+              </test-case>
+              <test-case id="1014" name="MovingTargets_ActuallyMove" fullname="TargetRange.Tests.PlayMode.RangeTests.MovingTargets_ActuallyMove" methodname="MovingTargets_ActuallyMove" classname="TargetRange.Tests.PlayMode.RangeTests" runstate="Runnable" seed="396880771" result="Passed" start-time="2026-11-01 12:11:34Z" end-time="2026-11-01 12:11:35Z" duration="1.309941" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1011" name="Pistol_DoesNotFireBeforeTheRoundHasStarted" fullname="TargetRange.Tests.PlayMode.RangeTests.Pistol_DoesNotFireBeforeTheRoundHasStarted" methodname="Pistol_DoesNotFireBeforeTheRoundHasStarted" classname="TargetRange.Tests.PlayMode.RangeTests" runstate="Runnable" seed="961537611" result="Passed" start-time="2026-11-01 12:11:35Z" end-time="2026-11-01 12:11:35Z" duration="0.107599" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1013" name="Restart_ResetsScoreTimeTargetsAndPistol" fullname="TargetRange.Tests.PlayMode.RangeTests.Restart_ResetsScoreTimeTargetsAndPistol" methodname="Restart_ResetsScoreTimeTargetsAndPistol" classname="TargetRange.Tests.PlayMode.RangeTests" runstate="Runnable" seed="1238585542" result="Passed" start-time="2026-11-01 12:11:35Z" end-time="2026-11-01 12:11:35Z" duration="0.142842" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[The character with Unicode value \u2605 was not found in the [Barlow-Bold] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [Rank].
+The character with Unicode value \u2606 was not found in the [Barlow-Bold] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [Rank].
+The character with Unicode value \u2606 was not found in the [Barlow-Bold] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [Rank].
+The character with Unicode value \u2605 was not found in the [Barlow-Bold] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [Rank].
+The character with Unicode value \u2605 was not found in the [Barlow-Bold] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [Rank].
+The character with Unicode value \u2605 was not found in the [Barlow-Bold] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [ScorePopup].
+The character with Unicode value \u2605 was not found in the [Barlow-Bold] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [ScorePopup].
+The character with Unicode value \u2605 was not found in the [Barlow-Bold] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [ScorePopup].
+The character with Unicode value \u2605 was not found in the [Barlow-Bold] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [ScorePopup].
+]]></output>
+              </test-case>
+              <test-case id="1008" name="Scene_StartsReadyWithTenTargetsAndAFullClock" fullname="TargetRange.Tests.PlayMode.RangeTests.Scene_StartsReadyWithTenTargetsAndAFullClock" methodname="Scene_StartsReadyWithTenTargetsAndAFullClock" classname="TargetRange.Tests.PlayMode.RangeTests" runstate="Runnable" seed="1792527888" result="Passed" start-time="2026-11-01 12:11:35Z" end-time="2026-11-01 12:11:35Z" duration="0.104295" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1012" name="WhenTheTimerEnds_TheGameFreezes_AndTheResultsPanelAppears" fullname="TargetRange.Tests.PlayMode.RangeTests.WhenTheTimerEnds_TheGameFreezes_AndTheResultsPanelAppears" methodname="WhenTheTimerEnds_TheGameFreezes_AndTheResultsPanelAppears" classname="TargetRange.Tests.PlayMode.RangeTests" runstate="Runnable" seed="1002905272" result="Passed" start-time="2026-11-01 12:11:35Z" end-time="2026-11-01 12:11:35Z" duration="0.107532" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[The character with Unicode value \u2606 was not found in the [Barlow-Bold] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [Rank].
+The character with Unicode value \u2606 was not found in the [Barlow-Bold] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [Rank].
+The character with Unicode value \u2606 was not found in the [Barlow-Bold] font asset or any potential fallbacks. It was replaced by Unicode character \u25A1 in text object [Rank].
+Saving results to: C:/Users/RaghavKathuria/AppData/LocalLow/Raghav Kathuria/Target Range XR\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

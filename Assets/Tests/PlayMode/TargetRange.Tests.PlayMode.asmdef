@@ -1,0 +1,9 @@
+{
+  "name": "TargetRange.Tests.PlayMode",
+  "references": ["TargetRange.Runtime", "UnityEngine.TestRunner", "UnityEditor.TestRunner", "Unity.InputSystem", "Unity.XR.Interaction.Toolkit", "Unity.TextMeshPro", "UnityEngine.UI", "Unity.RenderPipelines.Universal.Runtime"],
+  "includePlatforms": [],
+  "overrideReferences": true,
+  "precompiledReferences": ["nunit.framework.dll"],
+  "defineConstraints": ["UNITY_INCLUDE_TESTS"],
+  "autoReferenced": false
+}

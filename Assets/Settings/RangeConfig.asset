@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a0d9223ef6322b42afe619d54e9f9a7, type: 3}
+  m_Name: RangeConfig
+  m_EditorClassIdentifier: TargetRange.Runtime::TargetRange.Core.RangeConfig
+  roundDurationSeconds: 60
+  lowTimeWarningSeconds: 10
+  bulletSpeed: 55
+  bulletLifetime: 2.5
+  bulletImpulse: 7
+  upwardBias: 0.18
+  bulletMask:
+    serializedVersion: 2
+    m_Bits: 768
+  secondsBetweenShots: 0.18
+  recoilDistance: 0.022
+  hapticAmplitude: 0.7
+  hapticDuration: 0.08
+  returnToTableDelay: 4
+  knockedTargetVanishDelay: 1.6
+  vanishDuration: 0.35
+  targetRespawnDelay: 6
+  respawnGrowDuration: 0.3
+  resultsDistance: 1.7
+  ranks:
+  - minScore: 0
+    title: ROOKIE
+  - minScore: 50
+    title: MARKSMAN
+  - minScore: 100
+    title: SHARPSHOOTER
+  - minScore: 160
+    title: DEAD EYE

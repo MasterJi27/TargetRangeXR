@@ -1,0 +1,25 @@
+{
+  "scope": "Roslyn compilation only. Unity runtime tests and player builds NOT executed.",
+  "results": [
+    {
+      "assembly": "TargetRange.Runtime",
+      "exit_code": 0,
+      "sources": 25
+    },
+    {
+      "assembly": "TargetRange.Editor",
+      "exit_code": 0,
+      "sources": 9
+    },
+    {
+      "assembly": "TargetRange.Tests.PlayMode",
+      "exit_code": 0,
+      "sources": 5
+    },
+    {
+      "assembly": "TargetRange.Tests.EditMode",
+      "exit_code": 0,
+      "sources": 1
+    }
+  ]
+}

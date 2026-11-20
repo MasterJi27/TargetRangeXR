@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="11" result="Passed" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-01 12:11:06Z" end-time="2026-11-01 12:11:06Z" duration="0.0548831">
+  <test-suite type="TestSuite" id="1000" name="Target Range XR" fullname="Target Range XR" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-11-01 12:11:06Z" end-time="2026-11-01 12:11:06Z" duration="0.054883" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1014" name="TargetRange.Tests.EditMode.dll" fullname="D:/Projects/Task2_TargetRangeXR/Library/ScriptAssemblies/TargetRange.Tests.EditMode.dll" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-11-01 12:11:06Z" end-time="2026-11-01 12:11:06Z" duration="0.043202" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="32176" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1015" name="TargetRange" fullname="TargetRange" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-11-01 12:11:06Z" end-time="2026-11-01 12:11:06Z" duration="0.042607" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1016" name="Tests" fullname="TargetRange.Tests" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-11-01 12:11:06Z" end-time="2026-11-01 12:11:06Z" duration="0.042161" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1017" name="EditMode" fullname="TargetRange.Tests.EditMode" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-11-01 12:11:06Z" end-time="2026-11-01 12:11:06Z" duration="0.041723" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1001" name="LogicTests" fullname="TargetRange.Tests.EditMode.LogicTests" classname="TargetRange.Tests.EditMode.LogicTests" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-11-01 12:11:06Z" end-time="2026-11-01 12:11:06Z" duration="0.040609" total="11" passed="11" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1005" name="CountdownTimer_FinishesExactlyOnceAfterSixtySeconds" fullname="TargetRange.Tests.EditMode.LogicTests.CountdownTimer_FinishesExactlyOnceAfterSixtySeconds" methodname="CountdownTimer_FinishesExactlyOnceAfterSixtySeconds" classname="TargetRange.Tests.EditMode.LogicTests" runstate="Runnable" seed="1798175787" result="Passed" start-time="2026-11-01 12:11:06Z" end-time="2026-11-01 12:11:06Z" duration="0.015658" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1006" name="CountdownTimer_ResetRestoresTheFullDuration" fullname="TargetRange.Tests.EditMode.LogicTests.CountdownTimer_ResetRestoresTheFullDuration" methodname="CountdownTimer_ResetRestoresTheFullDuration" classname="TargetRange.Tests.EditMode.LogicTests" runstate="Runnable" seed="1419023859" result="Passed" start-time="2026-11-01 12:11:06Z" end-time="2026-11-01 12:11:06Z" duration="0.000494" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1007" name="RangeConfig_DefaultsMatchTheAssignment" fullname="TargetRange.Tests.EditMode.LogicTests.RangeConfig_DefaultsMatchTheAssignment" methodname="RangeConfig_DefaultsMatchTheAssignment" classname="TargetRange.Tests.EditMode.LogicTests" runstate="Runnable" seed="459881795" result="Passed" start-time="2026-11-01 12:11:06Z" end-time="2026-11-01 12:11:06Z" duration="0.000876" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-suite type="ParameterizedMethod" id="1013" name="RangeConfig_PicksTheHighestRankReached" fullname="TargetRange.Tests.EditMode.LogicTests.RangeConfig_PicksTheHighestRankReached" classname="TargetRange.Tests.EditMode.LogicTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-11-01 12:11:06Z" end-time="2026-11-01 12:11:06Z" duration="0.004830" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+                <properties />
+                <test-case id="1008" name="RangeConfig_PicksTheHighestRankReached(0,&quot;ROOKIE&quot;)" fullname="TargetRange.Tests.EditMode.LogicTests.RangeConfig_PicksTheHighestRankReached(0,&quot;ROOKIE&quot;)" methodname="RangeConfig_PicksTheHighestRankReached" classname="TargetRange.Tests.EditMode.LogicTests" runstate="Runnable" seed="1483902765" result="Passed" start-time="2026-11-01 12:11:06Z" end-time="2026-11-01 12:11:06Z" duration="0.000669" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1009" name="RangeConfig_PicksTheHighestRankReached(49,&quot;ROOKIE&quot;)" fullname="TargetRange.Tests.EditMode.LogicTests.RangeConfig_PicksTheHighestRankReached(49,&quot;ROOKIE&quot;)" methodname="RangeConfig_PicksTheHighestRankReached" classname="TargetRange.Tests.EditMode.LogicTests" runstate="Runnable" seed="647273623" result="Passed" start-time="2026-11-01 12:11:06Z" end-time="2026-11-01 12:11:06Z" duration="0.000155" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1010" name="RangeConfig_PicksTheHighestRankReached(50,&quot;MARKSMAN&quot;)" fullname="TargetRange.Tests.EditMode.LogicTests.RangeConfig_PicksTheHighestRankReached(50,&quot;MARKSMAN&quot;)" methodname="RangeConfig_PicksTheHighestRankReached" classname="TargetRange.Tests.EditMode.LogicTests" runstate="Runnable" seed="926758507" result="Passed" start-time="2026-11-01 12:11:06Z" end-time="2026-11-01 12:11:06Z" duration="0.000065" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1011" name="RangeConfig_PicksTheHighestRankReached(120,&quot;SHARPSHOOTER&quot;)" fullname="TargetRange.Tests.EditMode.LogicTests.RangeConfig_PicksTheHighestRankReached(120,&quot;SHARPSHOOTER&quot;)" methodname="RangeConfig_PicksTheHighestRankReached" classname="TargetRange.Tests.EditMode.LogicTests" runstate="Runnable" seed="1731584769" result="Passed" start-time="2026-11-01 12:11:06Z" end-time="2026-11-01 12:11:06Z" duration="0.000118" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+                <test-case id="1012" name="RangeConfig_PicksTheHighestRankReached(170,&quot;DEAD EYE&quot;)" fullname="TargetRange.Tests.EditMode.LogicTests.RangeConfig_PicksTheHighestRankReached(170,&quot;DEAD EYE&quot;)" methodname="RangeConfig_PicksTheHighestRankReached" classname="TargetRange.Tests.EditMode.LogicTests" runstate="Runnable" seed="1479347583" result="Passed" start-time="2026-11-01 12:11:06Z" end-time="2026-11-01 12:11:06Z" duration="0.000065" asserts="0">
+                  <properties>
+                    <property name="retryIteration" value="0" />
+                    <property name="repeatIteration" value="0" />
+                  </properties>
+                </test-case>
+              </test-suite>
+              <test-case id="1003" name="ScoreTally_AccuracyIsZeroBeforeFirstShot_AndResetClearsEverything" fullname="TargetRange.Tests.EditMode.LogicTests.ScoreTally_AccuracyIsZeroBeforeFirstShot_AndResetClearsEverything" methodname="ScoreTally_AccuracyIsZeroBeforeFirstShot_AndResetClearsEverything" classname="TargetRange.Tests.EditMode.LogicTests" runstate="Runnable" seed="652354509" result="Passed" start-time="2026-11-01 12:11:06Z" end-time="2026-11-01 12:11:06Z" duration="0.001145" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1002" name="ScoreTally_AddsPointsAndComputesAccuracy" fullname="TargetRange.Tests.EditMode.LogicTests.ScoreTally_AddsPointsAndComputesAccuracy" methodname="ScoreTally_AddsPointsAndComputesAccuracy" classname="TargetRange.Tests.EditMode.LogicTests" runstate="Runnable" seed="1931371319" result="Passed" start-time="2026-11-01 12:11:06Z" end-time="2026-11-01 12:11:06Z" duration="0.000241" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1004" name="ScoreTally_NegativePointsNeverLowerTheScore" fullname="TargetRange.Tests.EditMode.LogicTests.ScoreTally_NegativePointsNeverLowerTheScore" methodname="ScoreTally_NegativePointsNeverLowerTheScore" classname="TargetRange.Tests.EditMode.LogicTests" runstate="Runnable" seed="681444099" result="Passed" start-time="2026-11-01 12:11:06Z" end-time="2026-11-01 12:11:06Z" duration="0.000133" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Saving results to: C:/Users/RaghavKathuria/AppData/LocalLow/Raghav Kathuria/Target Range XR\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-01 12:24:48Z" end-time="2026-11-01 12:24:53Z" duration="4.0723932">
+  <test-suite type="TestSuite" id="1028" name="Target Range XR" fullname="Target Range XR" runstate="Runnable" testcasecount="15" result="Passed" start-time="2026-11-01 12:24:48Z" end-time="2026-11-01 12:24:53Z" duration="4.072393" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1021" name="TargetRange.Tests.PlayMode.dll" fullname="D:/Projects/Task2_TargetRangeXR/Library/ScriptAssemblies/TargetRange.Tests.PlayMode.dll" runstate="Runnable" testcasecount="15" result="Passed" start-time="2026-11-01 12:24:48Z" end-time="2026-11-01 12:24:53Z" duration="4.056119" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="24116" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1022" name="TargetRange" fullname="TargetRange" runstate="Runnable" testcasecount="15" result="Passed" start-time="2026-11-01 12:24:48Z" end-time="2026-11-01 12:24:53Z" duration="4.053042" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1023" name="Tests" fullname="TargetRange.Tests" runstate="Runnable" testcasecount="15" result="Passed" start-time="2026-11-01 12:24:48Z" end-time="2026-11-01 12:24:53Z" duration="4.050751" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1024" name="PlayMode" fullname="TargetRange.Tests.PlayMode" runstate="Runnable" testcasecount="15" result="Passed" start-time="2026-11-01 12:24:48Z" end-time="2026-11-01 12:24:53Z" duration="4.047639" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1015" name="ScreenshotCapture" fullname="TargetRange.Tests.PlayMode.ScreenshotCapture" classname="TargetRange.Tests.PlayMode.ScreenshotCapture" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-11-01 12:24:48Z" end-time="2026-11-01 12:24:53Z" duration="4.043918" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1016" name="CaptureCurrentXRDocumentation" fullname="TargetRange.Tests.PlayMode.ScreenshotCapture.CaptureCurrentXRDocumentation" methodname="CaptureCurrentXRDocumentation" classname="TargetRange.Tests.PlayMode.ScreenshotCapture" runstate="Runnable" seed="1821644027" result="Passed" start-time="2026-11-01 12:24:49Z" end-time="2026-11-01 12:24:53Z" duration="4.024313" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[Failed to get haptic capabilities of XRSimulatedController:/XRSimulatedController1, error code -1. Continuing assuming a single haptic channel.
+Saving results to: C:/Users/RaghavKathuria/AppData/LocalLow/Raghav Kathuria/Target Range XR\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

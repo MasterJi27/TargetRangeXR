@@ -1,0 +1,2 @@
+Assets\Scripts\Editor\ProjectSetup.cs(47,13): warning CS0618: 'AssetDatabase.ImportPackage(string, bool)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Import(string packagePath, bool interactive) instead.'
+Assets\Scripts\Editor\SceneBuilder.World.cs(65,86): warning CS0618: 'XRDeviceSimulator' is obsolete: 'XRDeviceSimulator has been marked for deprecation and will be replaced by the XRInteractionSimulator in future versions.'

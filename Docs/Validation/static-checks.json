@@ -1,0 +1,8 @@
+{
+  "scene_objects": 872,
+  "local_scene_references": "all resolved",
+  "new_script_guids": "resolved",
+  "new_prefab_source_ids": "resolved",
+  "documentation_links": "all resolved",
+  "scope": "Static references only. See VALIDATION.md for separately recorded Unity tests/build and manual simulator checks."
+}

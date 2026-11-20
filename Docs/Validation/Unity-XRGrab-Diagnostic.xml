@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-01 12:10:35Z" end-time="2026-11-01 12:10:36Z" duration="1.2421484">
+  <test-suite type="TestSuite" id="1026" name="Target Range XR" fullname="Target Range XR" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-11-01 12:10:35Z" end-time="2026-11-01 12:10:36Z" duration="1.242148" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1019" name="TargetRange.Tests.PlayMode.dll" fullname="D:/Projects/Task2_TargetRangeXR/Library/ScriptAssemblies/TargetRange.Tests.PlayMode.dll" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-11-01 12:10:35Z" end-time="2026-11-01 12:10:36Z" duration="1.226147" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="25588" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1020" name="TargetRange" fullname="TargetRange" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-11-01 12:10:35Z" end-time="2026-11-01 12:10:36Z" duration="1.225230" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1021" name="Tests" fullname="TargetRange.Tests" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-11-01 12:10:35Z" end-time="2026-11-01 12:10:36Z" duration="1.224788" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestSuite" id="1022" name="PlayMode" fullname="TargetRange.Tests.PlayMode" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-11-01 12:10:35Z" end-time="2026-11-01 12:10:36Z" duration="1.224337" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-suite type="TestFixture" id="1007" name="RangeTests" fullname="TargetRange.Tests.PlayMode.RangeTests" classname="TargetRange.Tests.PlayMode.RangeTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-11-01 12:10:35Z" end-time="2026-11-01 12:10:36Z" duration="1.222761" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1009" name="GrabbingThePistol_StartsTheRound" fullname="TargetRange.Tests.PlayMode.RangeTests.GrabbingThePistol_StartsTheRound" methodname="GrabbingThePistol_StartsTheRound" classname="TargetRange.Tests.PlayMode.RangeTests" runstate="Runnable" seed="772534425" result="Passed" start-time="2026-11-01 12:10:35Z" end-time="2026-11-01 12:10:36Z" duration="1.209139" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <output><![CDATA[SIM enabled=True active=True
+NODE [Left InteractionAttachController] Attach self=True hierarchy=True parent=XR Origin (XR Rig)
+NODE [Right InteractionAttachController] Attach self=True hierarchy=True parent=XR Origin (XR Rig)
+NODE XRController_Thumbstick_Buttons self=True hierarchy=True parent=UniversalController
+NODE Left Controller self=True hierarchy=True parent=Camera Offset
+NODE XRController_Thumbstick_Buttons self=True hierarchy=True parent=UniversalController
+NODE Controller_Base self=True hierarchy=True parent=UniversalController
+NODE Near-Far Interactor self=True hierarchy=True parent=Right Controller
+NODE [Left InteractionAttachController] Attach Child self=True hierarchy=True parent=[Left InteractionAttachController] Attach
+NODE Near-Far Interactor self=True hierarchy=True parent=Left Controller
+NODE Left Controller Stabilized Attach self=True hierarchy=True parent=Left Controller Teleport Stabilized Origin
+NODE Feedback Controller self=True hierarchy=True parent=Game Systems
+NODE Right Controller Teleport Stabilized Origin self=True hierarchy=True parent=Camera Offset
+NODE Left Controller Visual self=True hierarchy=True parent=Left Controller
+NODE Controller_Base self=True hierarchy=True parent=UniversalController
+NODE UniversalController self=True hierarchy=True parent=Left Controller Visual
+NODE Right Controller Stabilized Attach self=True hierarchy=True parent=Right Controller Teleport Stabilized Origin
+NODE Right Controller Visual self=True hierarchy=True parent=Right Controller
+NODE Left Controller Teleport Stabilized Origin self=True hierarchy=True parent=Camera Offset
+NODE [Right InteractionAttachController] Attach Child self=True hierarchy=True parent=[Right InteractionAttachController] Attach
+NODE UniversalController self=True hierarchy=True parent=Right Controller Visual
+NODE Right Controller self=True hierarchy=True parent=Camera Offset
+NODE RControllerKeyBind self=True hierarchy=True parent=RightController
+NODE RControllerImage self=True hierarchy=True parent=RController
+NODE LControllerKeyBind self=True hierarchy=True parent=LeftController
+NODE LControllerKeyBindText self=True hierarchy=True parent=LControllerKeyBind
+NODE LController self=True hierarchy=True parent=LeftController
+NODE LControllerImage self=True hierarchy=True parent=LController
+NODE ControllerValueText self=True hierarchy=True parent=ControllerSelectedValues
+NODE RControllerKeyBindText self=True hierarchy=True parent=RControllerKeyBind
+NODE ControllerSelectedButton self=True hierarchy=True parent=ControllerRow
+NODE RControllerOverlay self=True hierarchy=True parent=RController
+NODE ControllersOption self=True hierarchy=True parent=BottomSection
+NODE RightController self=True hierarchy=True parent=ControllersOption
+NODE LControllerOverlay self=True hierarchy=True parent=LController
+NODE RController self=True hierarchy=True parent=RightController
+NODE ControllerSelectedValues self=True hierarchy=True parent=ControllerRow
+NODE ControllerRow self=True hierarchy=True parent=OrderedListView
+NODE LeftController self=True hierarchy=True parent=ControllersOption
+Failed to get haptic capabilities of XRSimulatedController:/XRSimulatedController1, error code -1. Continuing assuming a single haptic channel.
+Saving results to: C:/Users/RaghavKathuria/AppData/LocalLow/Raghav Kathuria/Target Range XR\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

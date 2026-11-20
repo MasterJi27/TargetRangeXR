@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Failed(Child)" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-01 07:11:42Z" end-time="2026-11-01 07:11:48Z" duration="6.2715742">
+  <test-suite type="TestSuite" id="1026" name="Target Range XR" fullname="Target Range XR" runstate="Runnable" testcasecount="13" result="Failed" site="Child" start-time="2026-11-01 07:11:42Z" end-time="2026-11-01 07:11:48Z" duration="6.271574" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1019" name="TargetRange.Tests.PlayMode.dll" fullname="D:/Projects/Task2_TargetRangeXR/Library/ScriptAssemblies/TargetRange.Tests.PlayMode.dll" runstate="Runnable" testcasecount="13" result="Failed" site="Child" start-time="2026-11-01 07:11:42Z" end-time="2026-11-01 07:11:48Z" duration="6.258586" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="25848" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="1020" name="TargetRange" fullname="TargetRange" runstate="Runnable" testcasecount="13" result="Failed" site="Child" start-time="2026-11-01 07:11:42Z" end-time="2026-11-01 07:11:48Z" duration="6.255890" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="1021" name="Tests" fullname="TargetRange.Tests" runstate="Runnable" testcasecount="13" result="Failed" site="Child" start-time="2026-11-01 07:11:42Z" end-time="2026-11-01 07:11:48Z" duration="6.253617" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestSuite" id="1022" name="PlayMode" fullname="TargetRange.Tests.PlayMode" runstate="Runnable" testcasecount="13" result="Failed" site="Child" start-time="2026-11-01 07:11:42Z" end-time="2026-11-01 07:11:48Z" duration="6.251729" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="1007" name="RangeTests" fullname="TargetRange.Tests.PlayMode.RangeTests" classname="TargetRange.Tests.PlayMode.RangeTests" runstate="Runnable" testcasecount="7" result="Failed" site="Child" start-time="2026-11-01 07:11:42Z" end-time="2026-11-01 07:11:48Z" duration="6.248449" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="1009" name="GrabbingThePistol_StartsTheRound" fullname="TargetRange.Tests.PlayMode.RangeTests.GrabbingThePistol_StartsTheRound" methodname="GrabbingThePistol_StartsTheRound" classname="TargetRange.Tests.PlayMode.RangeTests" runstate="Runnable" seed="1135586472" result="Failed" start-time="2026-11-01 07:11:42Z" end-time="2026-11-01 07:11:48Z" duration="6.232707" asserts="0">
+                <properties>
+                  <property name="_JOINTYPE" value="UnityCombinatorial" />
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+                <failure>
+                  <message><![CDATA[  the right controller never became active
+  Expected: not null
+  But was:  null
+]]></message>
+                  <stack-trace><![CDATA[at TargetRange.Tests.PlayMode.RangeTests+<GrabbingThePistol_StartsTheRound>d__7.MoveNext () [0x002f7] in D:\Projects\Task2_TargetRangeXR\Assets\Tests\PlayMode\RangeTests.cs:74
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__8.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@ee3fe9477490\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:52
+]]></stack-trace>
+                </failure>
+                <output><![CDATA[XR TEST DEVICE Keyboard enabled=False usages=
+XR TEST DEVICE Mouse enabled=False usages=
+XR TEST DEVICE XRSimulatedHMD enabled=True usages=
+TRACK /XRSimulatedHMD/trackingState=0
+TRACK /XRSimulatedHMD/isTracked=0
+XR TEST DEVICE XRSimulatedController enabled=True usages=LeftHand
+TRACK /XRSimulatedController/trackingState=0
+TRACK /XRSimulatedController/isTracked=0
+XR TEST DEVICE XRSimulatedController1 enabled=True usages=RightHand
+TRACK /XRSimulatedController1/trackingState=0
+TRACK /XRSimulatedController1/isTracked=0
+XR TEST INTERACTOR Near-Far Interactor type=NearFarInteractor enabled=True active=False
+XR TEST INTERACTOR Teleport Interactor type=XRRayInteractor enabled=True active=False
+XR TEST INTERACTOR Teleport Interactor type=XRRayInteractor enabled=True active=False
+XR TEST INTERACTOR Poke Interactor type=XRPokeInteractor enabled=True active=False
+XR TEST INTERACTOR Climb Teleport type=ClimbTeleportInteractor enabled=True active=True
+XR TEST INTERACTOR Poke Interactor type=XRPokeInteractor enabled=True active=False
+XR TEST INTERACTOR Gaze Interactor type=XRGazeInteractor enabled=True active=False
+XR TEST INTERACTOR Near-Far Interactor type=NearFarInteractor enabled=True active=False
+SIM enabled=True active=True
+NODE [Right InteractionAttachController] Attach Child self=True hierarchy=False parent=[Right InteractionAttachController] Attach
+NODE [Left InteractionAttachController] Attach self=False hierarchy=False parent=XR Origin (XR Rig)
+NODE Left Controller Visual self=True hierarchy=False parent=Left Controller
+NODE Feedback Controller self=True hierarchy=True parent=Game Systems
+NODE Controller_Base self=True hierarchy=False parent=UniversalController
+NODE XRController_Thumbstick_Buttons self=True hierarchy=False parent=UniversalController
+NODE [Right InteractionAttachController] Attach self=False hierarchy=False parent=XR Origin (XR Rig)
+NODE Near-Far Interactor self=True hierarchy=False parent=Right Controller
+NODE [Left InteractionAttachController] Attach Child self=True hierarchy=False parent=[Left InteractionAttachController] Attach
+NODE XRController_Thumbstick_Buttons self=True hierarchy=False parent=UniversalController
+NODE UniversalController self=True hierarchy=False parent=Right Controller Visual
+NODE Controller_Base self=True hierarchy=False parent=UniversalController
+NODE Near-Far Interactor self=True hierarchy=False parent=Left Controller
+NODE Right Controller Teleport Stabilized Origin self=True hierarchy=True parent=Camera Offset
+NODE Right Controller Stabilized Attach self=True hierarchy=True parent=Right Controller Teleport Stabilized Origin
+NODE Right Controller Visual self=True hierarchy=False parent=Right Controller
+NODE Left Controller Stabilized Attach self=True hierarchy=True parent=Left Controller Teleport Stabilized Origin
+NODE Right Controller self=False hierarchy=False parent=Camera Offset
+NODE Left Controller Teleport Stabilized Origin self=True hierarchy=True parent=Camera Offset
+NODE Left Controller self=False hierarchy=False parent=Camera Offset
+NODE UniversalController self=True hierarchy=False parent=Left Controller Visual
+NODE LControllerKeyBind self=True hierarchy=True parent=LeftController
+NODE LControllerOverlay self=True hierarchy=True parent=LController
+NODE RController self=True hierarchy=True parent=RightController
+NODE RControllerKeyBindText self=True hierarchy=True parent=RControllerKeyBind
+NODE ControllerSelectedButton self=True hierarchy=True parent=ControllerRow
+NODE RControllerKeyBind self=True hierarchy=True parent=RightController
+NODE LControllerKeyBindText self=True hierarchy=True parent=LControllerKeyBind
+NODE LController self=True hierarchy=True parent=LeftController
+NODE ControllersOption self=True hierarchy=True parent=BottomSection
+NODE ControllerValueText self=True hierarchy=True parent=ControllerSelectedValues
+NODE RightController self=True hierarchy=True parent=ControllersOption
+NODE RControllerImage self=True hierarchy=True parent=RController
+NODE LControllerImage self=True hierarchy=True parent=LController
+NODE RControllerOverlay self=True hierarchy=True parent=RController
+NODE ControllerRow self=True hierarchy=True parent=OrderedListView
+NODE LeftController self=True hierarchy=True parent=ControllersOption
+NODE ControllerSelectedValues self=True hierarchy=True parent=ControllerRow
+Saving results to: C:/Users/RaghavKathuria/AppData/LocalLow/Raghav Kathuria/Target Range XR\TestResults.xml
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
